@@ -1,0 +1,65 @@
+declaration: <nom de type> <nom de variable>;
+affectation <nom de variable> = <calcul> l'affectation est une instruction
+
+méthode : petit programme
+
+appel de methode: <nom de la methode> (parameters)
+
+- Les types
+- double
+. ensemble de valeurs 
+tout les nombre a virgule ne sont pas representable en java
+double = 8 octet de 8 bt 2e64 nombre diff possible
+
+. nom
+. operateurs : + - / *
+. methode pour les entrées : Terminal.lireDouble()
+. methode sorties: Terminal.ecrireDouble()
+				   Terminal.ecrireDoubleln()
+
+- nombre entiers
+- int
+essemble de valeurs 123	
+. nom
+. operateurs : + - / *
+. methode pour les entrées : Terminal.lireInt()
+. methode sorties: Terminal.ecrireInt()
+				   Terminal.ecrireIntln()
+
+- caracteres 
+. char 'a'	2 octet uses the unicode			   
+pas d'operateur
+. methode pour les entrées : Terminal.lireChar()
+. methode sorties: Terminal.ecrireChar()
+				   Terminal.ecrireCharln()
+
+- chaine de caracteres
+- String
+operateurs: concatenation "+"
+. methode pour les entrées : Terminal.lireString()
+. methode sorties: Terminal.ecrireString()
+				   Terminal.ecrireStringln()
+
+- boolean : true false
+operateurs: && ||
+
+calcul - expression:
+	dans une affectation a droite du egale
+	dans un appel de methode, entre les parentheses (parametre)
+
+4 sorte de calculs:
+- valeurs litterales ex: 1 'a' 1.5 "toto" true;
+- variable ex: Terminal.ecrireDouble(PrixAPayer) (la valeur stocké dans la memoire pour ce nom la)
+int x;
+int y;
+x = Terminal.lireInt();
+y = x
+x = x = 1
+- variable opérateur il faut 2
+ex :x = Terminal.lireInt() * y + 1.5;
+- appel de methode si la methode a une sortie
+
+
+
+
+
